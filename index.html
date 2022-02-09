@@ -13,22 +13,24 @@
     <img src="https://source.unsplash.com/random/900×700/?newyork" alt="newyork">
     <main>
         <div class="btncontent">
-            <button class="btn active">Photographer</button>
-            <button class="btn">Camera gear</button>
-            <button class="btn">Location</button>
+            <button class="btn active" data-id="photo">Photographer</button>
+            <button class="btn" data-id="camera">Camera gear</button>
+            <button class="btn" data-id="location">Location</button>
         </div>
-        <div class="content-box active">
+        <div class="content-box active" id="photo">
             <h4>Photographer</h4>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi quasi nulla provident a facilis adipisci rerum, illo, asperiores cumque recusandae explicabo ut esse dolorem ab fugit quaerat sint aliquid quas.</p>
         </div>
-        <div class="content-box">
+        <div class="content-box" id="camera">
             <h4>Camera gear</h4>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi quasi nulla provident a facilis adipisci rerum, illo, asperiores cumque recusandae explicabo ut esse dolorem ab fugit quaerat sint aliquid quas.</p>
         </div>
-        <div class="content-box">
+        <div class="content-box" id="location">
             <h4>Location</h4>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi quasi nulla provident a facilis adipisci rerum, illo, asperiores cumque recusandae explicabo ut esse dolorem ab fugit quaerat sint aliquid quas.</p>
         </div>
     </main>
+
+    <script src="main.js"></script>
 </body>
 </html>
